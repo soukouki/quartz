@@ -16,13 +16,17 @@ This plugin accepts the following configuration options:
 If frontmatter is specified, the following frontmatter values are referenced:
 
 - created
+  - `created`
   - `date`
 - modified
+  - `modified`
   - `lastmod`
   - `updated`
   - `last-modified`
 - published
+  - `published`
   - `publishDate`
+  - `date`
 
 > [!warning]
 > If you rely on `git` for dates, make sure `defaultDateType` is set to `modified` in `quartz.config.ts`.
